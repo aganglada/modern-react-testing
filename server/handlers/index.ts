@@ -1,4 +1,4 @@
 import { rest } from 'msw'
-import { allTodosHandler } from './todos'
+import { allProductsHandler } from './products'
 
-export const handlers = [rest.get('/api/todos', allTodosHandler)]
+export const handlers = [rest.get('/api/products', allProductsHandler)]
